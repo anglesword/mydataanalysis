@@ -1,0 +1,1 @@
+print("Hello, Pycharm Community Edition")
