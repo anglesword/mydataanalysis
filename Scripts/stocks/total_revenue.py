@@ -27,8 +27,8 @@ def calculate_total_return_basic(ticker, buy_price, shares, sell_price, start_da
     total_return_pct = (total_profit / buy_amount) * 100
 
     print(f"\n📈 {ticker}（基础总收益）:")
-    print(f"买入价格：${buy_price:.2f}，买入股数：{shares}")
-    print(f"卖出价格：${sell_price:.2f}")
+    print(f"买入价格：${buy_price:.2f}，买入股数：{shares}，买入成本：{shares*buy_price:.2f}")
+    print(f"卖出价格：${sell_price:.2f}，卖出金额：{shares*sell_price}")
     print(f"期间每股分红累计：${total_dividends:.4f}，总分红：${total_dividend_income:.2f}")
     print(f"总收益：${total_profit:.2f}")
     print(f"总收益率：{total_return_pct:.2f}%")
