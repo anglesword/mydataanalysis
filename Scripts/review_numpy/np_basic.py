@@ -40,13 +40,6 @@ def create_array_random_two_dimension() -> None:
     print(f"ndim={arr.ndim}, shape={arr.shape}, dtype={arr.dtype}, size={arr.size}")
 
 def main() -> None:
-    create_array_one_dimension()
-    create_array_two_dimension()
-    create_array_arrange()
-    create_array_random()
-    create_array_random_nd()
-    create_array_random_two_dimension()
-    create_array_random_nd()
 
 if __name__ == "__main__":
     main()
