@@ -178,6 +178,7 @@ def plot_stock_different_layout() -> None:
     )
 
     fig.show()
+    fig.write_html("../html/plot_nvda.html")
 
 def main():
     # plot_stock()
